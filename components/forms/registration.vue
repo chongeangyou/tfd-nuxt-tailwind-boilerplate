@@ -39,8 +39,8 @@
       <input id="password" v-model="password" type="password" name="password" :required="true" class="tfd-input" />
     </div>
     <div class="relative mb-4">
-      <label for="passwordConfirmation" class="leading-7 text-sm text-gray-600">{{
-        $t("passwordConfirmation")
+      <label for="confirmPassword" class="leading-7 text-sm text-gray-600">{{
+        $t("confirmPassword")
       }}</label>
       <input id="passwordConfirmation" v-model="passwordConfirmation" type="password" name="passwordConfirmation" :required="true"
         class="tfd-input" />
